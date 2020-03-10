@@ -65,7 +65,7 @@ h6 {
 }
 
 leadparagraph {
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Source Sans Pro';
 	font-weight: 300;
 	font-size: 22px;
 	line-height: 1.5em/33px;
@@ -85,10 +85,9 @@ paragraph {
 
 body {
 	margin: 0;
-	min-width: 300px;
+	min-width: 400px;
 }
 
-/* Centered text */
 .header-image display1 {
 	font-size: 2.5em;
 	position: absolute;
@@ -96,19 +95,22 @@ body {
 	left: 5%;
 	color: white
 }
+
 .header-image {
-	background-image: url("../images/sawyer-bengtson-YaSH0DbU5lE-unsplash.jpg");
+	background-image: url("../images/nasa-CpHNKNRwXps-unsplash.jpg");
 	width: 100%;
 	height: 1000px;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
+
 .header-image nav {
 	position: absolute;
 	top: 25px;
 	left: 5%;
 }
+
 .header-image nav ul li a {
 	text-decoration: none;
 	color: white;
@@ -117,22 +119,20 @@ body {
 	font-size: 19px;
 	line-height: 1.2em/23px;
 }
+
 .header-image nav ul {
 	list-style-type: none;
 	padding-left: 0
 }
+
 .header-image nav ul li a:hover {
-	color:#FABADD;
+	color:#FF5A5F;
 }
-
-.portrait {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	border-color: white;
-	margin: auto;
-}
-
 .main {
-	background-image: linear-gradient(#F5FAFD, white, white, white);
+	color: white;
+	background-image: linear-gradient(#010101, black, black, black);
+}
+.footer {
+	background-color: gray;
+	height: 100px;
 }
